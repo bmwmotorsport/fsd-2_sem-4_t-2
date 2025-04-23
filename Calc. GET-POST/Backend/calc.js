@@ -46,7 +46,7 @@ app.get("/calc", (req, res) => {
       break;
     case "multi":
       result = n1 * n2;
-      operationText = `${n1} × ${n2} = ${result}`;
+      operationText = `${n1} * ${n2} = ${result}`;
       break;
     case "div":
       if (n2 === 0) {
